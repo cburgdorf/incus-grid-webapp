@@ -1,0 +1,1 @@
+export const env={"PUBLIC_MAPBOX_TOKEN":"pk.eyJ1IjoiY2J1cmdkb3JmIiwiYSI6ImNtamJvYzhoeDA1NXczZnNjbjU4Y3B6bGoifQ.d5Zk2TpXeUxhdVCdodSL2A","PUBLIC_POCKETBASE_URL":"https://pocketbase.example.com","PUBLIC_TILES_BASE_URL":"https://github.com/cburgdorf/incus-grid-cdn/raw/refs/heads/main/v1"}

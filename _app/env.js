@@ -1,1 +1,1 @@
-export const env={"PUBLIC_MAPBOX_TOKEN":"pk.eyJ1IjoiY2J1cmdkb3JmIiwiYSI6ImNtamVvanA5NzAyOGUzZnF2YjN1NWNzcWMifQ.H0mCBOr_-2MTEAzgTJ9_zw","PUBLIC_POCKETBASE_URL":"https://pocketbase.example.com","PUBLIC_TILES_BASE_URL":"https://github.com/cburgdorf/incus-grid-cdn/raw/refs/heads/main/v1"}
+export const env={"PUBLIC_MAPBOX_TOKEN":"pk.eyJ1IjoiY2J1cmdkb3JmIiwiYSI6ImNtamVvanA5NzAyOGUzZnF2YjN1NWNzcWMifQ.H0mCBOr_-2MTEAzgTJ9_zw","PUBLIC_POCKETBASE_URL":"https://pocketbase.example.com","PUBLIC_TILES_BASE_URL":"https://cburgdorf.github.io/incus-grid-cdn/v1"}

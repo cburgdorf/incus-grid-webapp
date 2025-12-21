@@ -1,1 +1,1 @@
-export const env={"PUBLIC_MAPTILER_KEY":"your_maptiler_key_here","PUBLIC_COG_BASE_URL":"","PUBLIC_POCKETBASE_URL":"https://pb.windwanderer.xyz"}
+export const env={"PUBLIC_MAPTILER_KEY":"0cdoIBjm8kHZGjEGavi9","PUBLIC_COG_BASE_URL":"https://cburgdorf.github.io/incus-grid-cdn/v1/","PUBLIC_POCKETBASE_URL":"https://pb.windwanderer.xyz"}

@@ -1,1 +1,1 @@
-export const env={"PUBLIC_MAPTILER_KEY":"0cdoIBjm8kHZGjEGavi9","PUBLIC_COG_BASE_URL":"https://pub-52f3a84d855d426f8854434b69877ae0.r2.dev/v1","PUBLIC_POCKETBASE_URL":"https://pb.windwanderer.xyz"}
+export const env={"PUBLIC_MAPTILER_KEY":"0cdoIBjm8kHZGjEGavi9","PUBLIC_SHIELDING_COG_BASE_URL":"https://pub-52f3a84d855d426f8854434b69877ae0.r2.dev/v1","PUBLIC_LIGHTNING_HISTORY_COG_BASE_URL":"https://pub-52f3a84d855d426f8854434b69877ae0.r2.dev/lightning/v1","PUBLIC_POCKETBASE_URL":"https://pb.incusgrid.com"}

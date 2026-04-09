@@ -10,13 +10,21 @@
       gtag('js', new Date());
       gtag('config', 'G-7Q5WFSS215');
     </script>
+    <script>
+      // Restore status bar height on every page load (persisted by Tauri/Android)
+      (function() {
+        var h = localStorage.getItem('__statusBarHeight');
+        if (h) document.documentElement.style.setProperty('--status-bar-height', h + 'px');
+      })();
+    </script>
+    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>IncusGrid - Beyond Forecasts</title>
     
-		<link rel="modulepreload" href="/_app/immutable/entry/start.BDB3FcbA.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/CRgdf9VS.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/start.BDRf9xYv.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/DVTHzGfD.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/CSkVN5vT.js">
-		<link rel="modulepreload" href="/_app/immutable/entry/app.cpxU42Vu.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.CGB1GUh1.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/CCCIPPor.js">
 		<link rel="modulepreload" href="/_app/env.js">
   </head>
@@ -24,7 +32,7 @@
     <div style="display: contents">
 			<script>
 				{
-					__sveltekit_nlo0s3 = {
+					__sveltekit_1ywfzxs = {
 						base: "",
 						env: null
 					};
@@ -32,11 +40,11 @@
 					const element = document.currentScript.parentElement;
 
 					import("/_app/env.js").then(({ env }) => {
-						__sveltekit_nlo0s3.env = env;
+						__sveltekit_1ywfzxs.env = env;
 
 						Promise.all([
-							import("/_app/immutable/entry/start.BDB3FcbA.js"),
-							import("/_app/immutable/entry/app.cpxU42Vu.js")
+							import("/_app/immutable/entry/start.BDRf9xYv.js"),
+							import("/_app/immutable/entry/app.CGB1GUh1.js")
 						]).then(([kit, app]) => {
 							kit.start(app, element);
 						});

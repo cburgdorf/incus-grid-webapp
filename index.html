@@ -2,6 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <!-- The basemap comes from MapTiler: open the connection while the app code loads. -->
+    <link rel="preconnect" href="https://api.maptiler.com" crossorigin />
+    <!-- The first labels (countries, seas) need these glyphs; MapLibre would only request them after the first tiles. -->
+    <link rel="preload" as="fetch" crossorigin="anonymous" href="https://api.maptiler.com/fonts/Roboto%20Bold,Noto%20Sans%20Bold/0-255.pbf?key=0cdoIBjm8kHZGjEGavi9" />
+    <link rel="preload" as="fetch" crossorigin="anonymous" href="https://api.maptiler.com/fonts/Roboto%20Italic,Noto%20Sans%20Italic/0-255.pbf?key=0cdoIBjm8kHZGjEGavi9" />
+    <link rel="preload" as="fetch" crossorigin="anonymous" href="https://api.maptiler.com/fonts/Roboto%20Medium,Noto%20Sans%20Regular/0-255.pbf?key=0cdoIBjm8kHZGjEGavi9" />
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7Q5WFSS215"></script>
     <script>
@@ -24,12 +30,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>IncusGrid</title>
     
-		<link rel="modulepreload" href="/_app/immutable/entry/start.D58Yryqi.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/D8CRi9Ul.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/start.0elq976f.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/D6UNghu3.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/Ca1REr6c.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/DHgFtDee.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/DNmYNRSC.js">
-		<link rel="modulepreload" href="/_app/immutable/entry/app.ByLiWAAT.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Bx4WP4nv.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.BTBy0eIy.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/C1FmrZbK.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/mbx0OD2U.js">
 		<link rel="modulepreload" href="/_app/env.js">
@@ -38,7 +44,7 @@
     <div style="display: contents">
 			<script>
 				{
-					__sveltekit_h8iuzh = {
+					__sveltekit_arr3lr = {
 						base: "",
 						env: null
 					};
@@ -46,11 +52,11 @@
 					const element = document.currentScript.parentElement;
 
 					import("/_app/env.js").then(({ env }) => {
-						__sveltekit_h8iuzh.env = env;
+						__sveltekit_arr3lr.env = env;
 
 						Promise.all([
-							import("/_app/immutable/entry/start.D58Yryqi.js"),
-							import("/_app/immutable/entry/app.ByLiWAAT.js")
+							import("/_app/immutable/entry/start.0elq976f.js"),
+							import("/_app/immutable/entry/app.BTBy0eIy.js")
 						]).then(([kit, app]) => {
 							kit.start(app, element);
 						});
